@@ -1,4 +1,4 @@
-CREATE TABLE if not EXISTS orders (
+CREATE TABLE IF NOT EXISTS orders (
     order_id INT NOT NULL PRIMARY KEY,
     cake_id INT NOT NULL,
     customer_id INT,
